@@ -1,0 +1,80 @@
+/* Write some CSS below */
+
+body {
+  background-color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: tomato;
+  font-family: "Koulen", cursive;
+  font-size: 48px;
+  margin: 0;
+}
+
+h2,
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font: 24px;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.button {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: tomato;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px 40px;
+  border-radius: 3px;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px lightgray;
+}
+
+.banner {
+  text-align: center;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  padding: 150px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.title {
+  color: #000;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.card-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+
+#footer {
+  background-color: tomato;
+  padding: 40px 60px;
+  color: #fff;
+}
